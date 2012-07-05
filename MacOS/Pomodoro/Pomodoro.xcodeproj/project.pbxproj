@@ -1,0 +1,362 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		294013CE15A5CCD0004081A3 /* FreeTimeFinished.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 294013CC15A5CCD0004081A3 /* FreeTimeFinished.mp3 */; };
+		294013CF15A5CCD0004081A3 /* WorkTimeFinished.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 294013CD15A5CCD0004081A3 /* WorkTimeFinished.mp3 */; };
+		2953FA6F15A4E5060042AF40 /* APAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 2953FA6615A4E5060042AF40 /* APAttribute.m */; };
+		2953FA7015A4E5060042AF40 /* APDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 2953FA6815A4E5060042AF40 /* APDocument.m */; };
+		2953FA7115A4E5060042AF40 /* APElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 2953FA6A15A4E5060042AF40 /* APElement.m */; };
+		2953FA7215A4E5060042AF40 /* COPYING.LESSER in Resources */ = {isa = PBXBuildFile; fileRef = 2953FA6C15A4E5060042AF40 /* COPYING.LESSER */; };
+		2953FA7315A4E5060042AF40 /* COPYING.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2953FA6D15A4E5060042AF40 /* COPYING.txt */; };
+		2953FA7415A4E5060042AF40 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 2953FA6E15A4E5060042AF40 /* README */; };
+		2953FA7815A4E6050042AF40 /* TimestampGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2953FA7715A4E6050042AF40 /* TimestampGetter.m */; };
+		2953FA7E15A517450042AF40 /* pomodoro-ico.png in Resources */ = {isa = PBXBuildFile; fileRef = 2953FA7D15A517450042AF40 /* pomodoro-ico.png */; };
+		29FE733815A4D6CA00538D88 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29FE733715A4D6CA00538D88 /* Cocoa.framework */; };
+		29FE734215A4D6CA00538D88 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 29FE734015A4D6CA00538D88 /* InfoPlist.strings */; };
+		29FE734415A4D6CA00538D88 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29FE734315A4D6CA00538D88 /* main.m */; };
+		29FE734815A4D6CA00538D88 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 29FE734615A4D6CA00538D88 /* Credits.rtf */; };
+		29FE734B15A4D6CA00538D88 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 29FE734A15A4D6CA00538D88 /* AppDelegate.m */; };
+		29FE734E15A4D6CA00538D88 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29FE734C15A4D6CA00538D88 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		294013CC15A5CCD0004081A3 /* FreeTimeFinished.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = FreeTimeFinished.mp3; sourceTree = "<group>"; };
+		294013CD15A5CCD0004081A3 /* WorkTimeFinished.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = WorkTimeFinished.mp3; sourceTree = "<group>"; };
+		2953FA6515A4E5060042AF40 /* APAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APAttribute.h; sourceTree = "<group>"; };
+		2953FA6615A4E5060042AF40 /* APAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APAttribute.m; sourceTree = "<group>"; };
+		2953FA6715A4E5060042AF40 /* APDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APDocument.h; sourceTree = "<group>"; };
+		2953FA6815A4E5060042AF40 /* APDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APDocument.m; sourceTree = "<group>"; };
+		2953FA6915A4E5060042AF40 /* APElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APElement.h; sourceTree = "<group>"; };
+		2953FA6A15A4E5060042AF40 /* APElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APElement.m; sourceTree = "<group>"; };
+		2953FA6B15A4E5060042AF40 /* APXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APXML.h; sourceTree = "<group>"; };
+		2953FA6C15A4E5060042AF40 /* COPYING.LESSER */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = COPYING.LESSER; sourceTree = "<group>"; };
+		2953FA6D15A4E5060042AF40 /* COPYING.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = COPYING.txt; sourceTree = "<group>"; };
+		2953FA6E15A4E5060042AF40 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		2953FA7615A4E6050042AF40 /* TimestampGetter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimestampGetter.h; sourceTree = "<group>"; };
+		2953FA7715A4E6050042AF40 /* TimestampGetter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimestampGetter.m; sourceTree = "<group>"; };
+		2953FA7D15A517450042AF40 /* pomodoro-ico.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "pomodoro-ico.png"; path = "../pomodoro-ico.png"; sourceTree = "<group>"; };
+		29FE733315A4D6CA00538D88 /* Pomodoro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pomodoro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		29FE733715A4D6CA00538D88 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		29FE733A15A4D6CA00538D88 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		29FE733B15A4D6CA00538D88 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		29FE733C15A4D6CA00538D88 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		29FE733F15A4D6CA00538D88 /* Pomodoro-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pomodoro-Info.plist"; sourceTree = "<group>"; };
+		29FE734115A4D6CA00538D88 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		29FE734315A4D6CA00538D88 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29FE734515A4D6CA00538D88 /* Pomodoro-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pomodoro-Prefix.pch"; sourceTree = "<group>"; };
+		29FE734715A4D6CA00538D88 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		29FE734915A4D6CA00538D88 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		29FE734A15A4D6CA00538D88 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		29FE734D15A4D6CA00538D88 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29FE733015A4D6CA00538D88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29FE733815A4D6CA00538D88 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		294013CA15A5CCB8004081A3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				294013CC15A5CCD0004081A3 /* FreeTimeFinished.mp3 */,
+				294013CD15A5CCD0004081A3 /* WorkTimeFinished.mp3 */,
+				2953FA7D15A517450042AF40 /* pomodoro-ico.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2953FA6415A4E5060042AF40 /* apxml */ = {
+			isa = PBXGroup;
+			children = (
+				2953FA6515A4E5060042AF40 /* APAttribute.h */,
+				2953FA6615A4E5060042AF40 /* APAttribute.m */,
+				2953FA6715A4E5060042AF40 /* APDocument.h */,
+				2953FA6815A4E5060042AF40 /* APDocument.m */,
+				2953FA6915A4E5060042AF40 /* APElement.h */,
+				2953FA6A15A4E5060042AF40 /* APElement.m */,
+				2953FA6B15A4E5060042AF40 /* APXML.h */,
+				2953FA6C15A4E5060042AF40 /* COPYING.LESSER */,
+				2953FA6D15A4E5060042AF40 /* COPYING.txt */,
+				2953FA6E15A4E5060042AF40 /* README */,
+			);
+			path = apxml;
+			sourceTree = "<group>";
+		};
+		29FE732815A4D6CA00538D88 = {
+			isa = PBXGroup;
+			children = (
+				29FE733D15A4D6CA00538D88 /* Pomodoro */,
+				29FE733615A4D6CA00538D88 /* Frameworks */,
+				29FE733415A4D6CA00538D88 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		29FE733415A4D6CA00538D88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29FE733315A4D6CA00538D88 /* Pomodoro.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29FE733615A4D6CA00538D88 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29FE733715A4D6CA00538D88 /* Cocoa.framework */,
+				29FE733915A4D6CA00538D88 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		29FE733915A4D6CA00538D88 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29FE733A15A4D6CA00538D88 /* AppKit.framework */,
+				29FE733B15A4D6CA00538D88 /* CoreData.framework */,
+				29FE733C15A4D6CA00538D88 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		29FE733D15A4D6CA00538D88 /* Pomodoro */ = {
+			isa = PBXGroup;
+			children = (
+				294013CA15A5CCB8004081A3 /* Resources */,
+				2953FA6415A4E5060042AF40 /* apxml */,
+				29FE734915A4D6CA00538D88 /* AppDelegate.h */,
+				29FE734A15A4D6CA00538D88 /* AppDelegate.m */,
+				29FE734C15A4D6CA00538D88 /* MainMenu.xib */,
+				29FE733E15A4D6CA00538D88 /* Supporting Files */,
+				2953FA7615A4E6050042AF40 /* TimestampGetter.h */,
+				2953FA7715A4E6050042AF40 /* TimestampGetter.m */,
+			);
+			path = Pomodoro;
+			sourceTree = "<group>";
+		};
+		29FE733E15A4D6CA00538D88 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				29FE733F15A4D6CA00538D88 /* Pomodoro-Info.plist */,
+				29FE734015A4D6CA00538D88 /* InfoPlist.strings */,
+				29FE734315A4D6CA00538D88 /* main.m */,
+				29FE734515A4D6CA00538D88 /* Pomodoro-Prefix.pch */,
+				29FE734615A4D6CA00538D88 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29FE733215A4D6CA00538D88 /* Pomodoro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29FE735115A4D6CA00538D88 /* Build configuration list for PBXNativeTarget "Pomodoro" */;
+			buildPhases = (
+				29FE732F15A4D6CA00538D88 /* Sources */,
+				29FE733015A4D6CA00538D88 /* Frameworks */,
+				29FE733115A4D6CA00538D88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pomodoro;
+			productName = Pomodoro;
+			productReference = 29FE733315A4D6CA00538D88 /* Pomodoro.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29FE732A15A4D6CA00538D88 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 29FE732D15A4D6CA00538D88 /* Build configuration list for PBXProject "Pomodoro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 29FE732815A4D6CA00538D88;
+			productRefGroup = 29FE733415A4D6CA00538D88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29FE733215A4D6CA00538D88 /* Pomodoro */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29FE733115A4D6CA00538D88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29FE734215A4D6CA00538D88 /* InfoPlist.strings in Resources */,
+				29FE734815A4D6CA00538D88 /* Credits.rtf in Resources */,
+				29FE734E15A4D6CA00538D88 /* MainMenu.xib in Resources */,
+				2953FA7215A4E5060042AF40 /* COPYING.LESSER in Resources */,
+				2953FA7315A4E5060042AF40 /* COPYING.txt in Resources */,
+				2953FA7415A4E5060042AF40 /* README in Resources */,
+				2953FA7E15A517450042AF40 /* pomodoro-ico.png in Resources */,
+				294013CE15A5CCD0004081A3 /* FreeTimeFinished.mp3 in Resources */,
+				294013CF15A5CCD0004081A3 /* WorkTimeFinished.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29FE732F15A4D6CA00538D88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29FE734415A4D6CA00538D88 /* main.m in Sources */,
+				29FE734B15A4D6CA00538D88 /* AppDelegate.m in Sources */,
+				2953FA6F15A4E5060042AF40 /* APAttribute.m in Sources */,
+				2953FA7015A4E5060042AF40 /* APDocument.m in Sources */,
+				2953FA7115A4E5060042AF40 /* APElement.m in Sources */,
+				2953FA7815A4E6050042AF40 /* TimestampGetter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		29FE734015A4D6CA00538D88 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29FE734115A4D6CA00538D88 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		29FE734615A4D6CA00538D88 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29FE734715A4D6CA00538D88 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		29FE734C15A4D6CA00538D88 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29FE734D15A4D6CA00538D88 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		29FE734F15A4D6CA00538D88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		29FE735015A4D6CA00538D88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		29FE735215A4D6CA00538D88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pomodoro/Pomodoro-Prefix.pch";
+				INFOPLIST_FILE = "Pomodoro/Pomodoro-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		29FE735315A4D6CA00538D88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pomodoro/Pomodoro-Prefix.pch";
+				INFOPLIST_FILE = "Pomodoro/Pomodoro-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29FE732D15A4D6CA00538D88 /* Build configuration list for PBXProject "Pomodoro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29FE734F15A4D6CA00538D88 /* Debug */,
+				29FE735015A4D6CA00538D88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29FE735115A4D6CA00538D88 /* Build configuration list for PBXNativeTarget "Pomodoro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29FE735215A4D6CA00538D88 /* Debug */,
+				29FE735315A4D6CA00538D88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29FE732A15A4D6CA00538D88 /* Project object */;
+}
