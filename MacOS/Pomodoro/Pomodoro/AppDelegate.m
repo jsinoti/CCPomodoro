@@ -35,8 +35,8 @@
     NSDateComponents *minutesComponents = [[NSCalendar currentCalendar] components:(NSMinuteCalendarUnit|NSSecondCalendarUnit) fromDate:date];
     minute = [minutesComponents minute];
     second = [minutesComponents second];
-    if(minute > 30) {
-        minute = minute - 30;
+    if(minute > 60) {
+        minute = minute - 60;
     }
     [self.window setBackgroundColor:[NSColor greenColor]];
     [NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(looping) userInfo:nil repeats:YES];
@@ -51,13 +51,13 @@
 
     }
     
-    if(minute > 29) {
+    if(minute > 59) {
         minute = 0;
     }
     
     int outPutMinute = minute;
-    if(outPutMinute >= 25) {
-        outPutMinute = outPutMinute - 25;
+    if(outPutMinute >= 50) {
+        outPutMinute = outPutMinute - 50;
         [self.window setBackgroundColor:[NSColor greenColor]];
     } else {
         [self.window setBackgroundColor:[NSColor redColor]];
